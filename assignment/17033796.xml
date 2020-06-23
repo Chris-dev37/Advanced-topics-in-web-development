@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atwd1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.cems.uwe.ac.uk/~p-chatterjee/2019-20/modules/atwd1/assignment/atwd1_schema.xsd"
+    code="UFCFX3-15-3" name="Advanced Topics in Web Development 1" year="2019/20">
+    <student sno="17033796" un="c23-day" surname="Day" prog="BSc(Hons) Software Engineering for Business"/>
+    <assignment>
+        <component id="A" name="Currency Service">
+            <tests>
+                <!-- 
+                 Note that you should only need to edit the '~a-student' value 
+                 to your own username to make these tests work for your application.
+                -->
+
+                <!-- convert 100.00 GBP to INR and return XML -->
+                <test id="1" response="xml" type="success"
+                    purpose="convert 100.00 GBP to INR and return XML">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=GBP&amp;to=INR&amp;amnt=100.00&amp;format=xml </test>
+
+                <!-- convert 85.75 from USD to EUR and return JSON -->
+                <test id="2" response="json" type="success"
+                    purpose="convert 85.75 from USD to EUR and return JSON">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=USD&amp;to=EUR&amp;amnt=85.75&amp;format=json </test>
+
+                <!-- redo test 1 but leave out 'format' parameter - should return XML by default -->
+                <test id="3" response="xml" type="success"
+                    purpose="redo test 1 but leave out format parameter - XML is default">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=GBP&amp;to=INR&amp;amnt=100.00 </test>
+
+                <!-- error 1000: Required parameter is missing - the 'from' parameter is missing -->
+                <test id="4" response="xml" type="error 1000"
+                    purpose="Required parameter is missing - (from)">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?to=EUR&amp;amnt=100.00&amp;format=xml</test>
+
+                <!-- error 1100: Parameter not recognized - the 'to' parameter is missing the 'o' (return json) -->
+                <test id="5" response="json" type="error 1000 or 1100"
+                    purpose="Parameter not recognized - the to parameter is misspelled (return json)"
+                    >
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=USD&amp;t=EUR&amp;amnt=100.00&amp;format=json</test>
+
+                <!-- error 1200: Currency type not recognised - the 'from' value is 'YYY') -->
+                <test id="6" response="json" type="error 1200"
+                    purpose="Currency type not recognised - the from value is YYY">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=YYY&amp;to=EUR&amp;amnt=18.85&amp;format=xml</test>
+
+                <!-- error 1300: Currency amount must be a decimal number - the 'amnt' value is non-decimal) -->
+                <test id="7" response="xml" type="error 1300"
+                    purpose="Currency amount must be a decimal number - the amnt value is non-decimal"
+                    >
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=USD&amp;to=EUR&amp;amnt=NaN&amp;format=xml</test>
+
+                <!-- error 1400: Format must be xml or json - the 'format' value is 'ZZZ') -->
+                <test id="8" response="xml" type="error 1400"
+                    purpose="Format must be xml or json - the format value is ZZZ">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=USD&amp;to=EUR&amp;amnt=19.20&amp;format=ZZZ</test>
+            </tests>
+            <data>
+                <rates_file>http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/rates.xml</rates_file>
+            </data>
+            <code>
+                <file type="main"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/index.phps</file>
+                <!-- You can add uo to 5 addtional url's here -->
+                <file type="config"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/config.phps</file>
+                <file type="functions"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/functions.phps</file>
+                <file type="error handling"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/catch_errors.phps</file>
+                <file type="create rates file"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/create_rates.phps</file>
+                <file type="create currency file"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/create_currencies.phps</file>
+            </code>
+            <comment>This part was easy once i got the functionality of the index.php file down. I feel like i could have combined the rates and currencies file for a little improvement and saving a bit of code.</comment>
+        </component>
+
+        <component id="B" name="Post, Put &amp; Delete implementation">
+            <tests>
+                <!-- error 2000: Action not post, put or delete - value is 'other') -->
+                <test id="9" response="xml" type="error 2000"
+                    purpose="Action not post, put or delete - value is other)">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=USD&amp;action=other</test>
+
+                <!-- error 2100: Currency code is missing (no value) -->
+                <test id="10" response="xml" type="error 2100"
+                    purpose="Currency code is missing (no value)">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=&amp;action=post</test>
+
+                <!-- error 2200: Currency code not found for update (value is ZZZ) -->
+                <test id="11" response="xml" type="error 2200"
+                    purpose="Currency code not found for update (value is ZZZ)">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=ZZZ&amp;action=put</test>
+
+                <!-- error 2300: No rate listed for this currency -->
+                <test id="12" response="xml" type="error 2300"
+                    purpose="No rate listed for this currency - XPT (platinum) has no rate in fixer"
+                    >
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=XPT&amp;action=put</test>
+
+                <!-- error 2400: Cannot update base currency (value is GBP) -->
+                <test id="14" response="xml" type="error 2400"
+                    purpose="Cannot update base currency (value is GBP)">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=GBP&amp;action=del</test>
+
+                <!-- Update USD -->
+                <test id="15" response="xml" type="success" purpose="Update USD">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=USD&amp;action=post</test>
+
+                <!-- DELETE USD -->
+                <test id="16" response="xml" type="success" purpose="DELETE USD">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=USD&amp;action=del</test>
+
+                <!-- test delete raise - error 1200: Currency type not recognised -->
+                <test id="17" response="xml" type="error 1200"
+                    purpose="test delete - error 1200: Currency type not recognised">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/?from=USD&amp;to=EUR&amp;amnt=18.85&amp;format=json</test>
+
+                <!-- PUT USD -->
+                <test id="18" response="xml" type="success" purpose="PUT USD">
+                    http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/?cur=USD&amp;action=put</test>
+            </tests>
+            <code>
+                <file type="POST, PUT, DELETE"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/update/index.phps</file>
+                <!-- You can add more file elements here -->
+                <file type="error handling"
+                    >http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/docs/update/catch_errors_taskb.phps</file>
+            </code>
+            <comment>This task was realitivly easy after task A as i found the work i completed for task A was were very simialr to what was needed for task B's functionality.</comment>
+        </component>
+
+        <component id="C" name="Form Interface">
+            <form>http://isa.cems.uwe.ac.uk/~c23-day/atwd1/assignment/update/form/</form>
+            <comment>This task was a little tricky as i had trouble with the javascript/jquery side of the task. I struggled to get the xml to print to the textbox in the correct format.</comment>
+        </component>
+
+        <component id="D" name="Critical Evaluation">
+            <eval>
+                <![CDATA[
+                     <p>My Learning Outcomes:
+                        Become more comfortable and continue to understand the standard working practices in the web development space, also working to find the most comfortable work style that suits me for web development.
+                        I was looking to develop my understanding and use of PHP, like how to create and manipulate XML files with data we are accessing from other sources (ISO list of global currencies and Fixer API). 
+                        Understand how a RESTful application works and learn how to create one with error handling and CRUD functionality.
+                        Get a better understanding of JavaScript as my knowledge is limited.
+                        
+                        How might the application be extended and improved?
+                        You could extend the application to provide data on how the rates of currencies have changed since the applications first use by creating a copy of the rates file with updated currency rates which could be used to compare to old saved files. This could be used in a graph for example to represent these stats. This could be provided as its own service that could be used alongside the original conversion app or on its own. 
+                        The application could be edited to allow for a CSV format option alongside XML and JSON. 
+                        You could implement a stock market API like “iextrading” to be used alongside the currency rates the conversion service provides. 
+                        The application could be tweaked to allow the user to change the base currency used for the rates calculation to any currency covered within the Fixer API. 
+                        An authentication service could be added along side the currency conversion service to aid with login functionality.
+                        
+                        As mentioned in the comment for task C, i stuggled with geting the xml to properly format in the textbox of the html, so next time i would use "new DOMdocument" for the output of the xml to the textbox so it would format properly with the correct line breaks. 
+                        
+                        How could the application and/or its components promote re-use?
+                        With the application being REST based and only having to use a few parameters, it’s a simple service to use which is an important aspect of any service when re-use is wanted to be encouraged. 
+                        The REST architecture means that this service can be easily integrated into another as a micro service, similarly to how we used the Fixer API to create the conversion service. So our conversion service will get reuse from being easily embeddable.
+                        With the application having access to all the currencies in the ISO currency list the user can use CRUD functionality to make use of all the ISO recognised global currencies. The CRUD functionality is very useful and convenient to the user as they can modify the rates file with adding, deleting or updating any currencies that they need or don’t need rather than using a static list. It makes the application more personal to the user which will more than likely have the user reusing the application.
+                    </p> 
+                ]]>
+            </eval>
+        </component>
+    </assignment>
+
+</atwd1>
+<!-- ATWD1 assignment XML submission File, 2019 -->
+<!-- author: prakash.chatterjee@uwe.ac.uk -->

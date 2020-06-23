@@ -1,0 +1,898 @@
+<?xml version="1.0"?>
+<currencies>
+ <currency>
+  <cCode>AFN</cCode>
+  <cName>Afghani</cName>
+  <cntry>Afghanistan</cntry>
+ </currency>
+ <currency>
+  <cCode>EUR</cCode>
+  <cName>Euro</cName>
+  <cntry>Åland Islands, Andorra, Austria, Belgium, Cyprus, Estonia, European Union, Finland, France, French Guiana, French Southern Territories (The), Germany, Greece, Guadeloupe, Holy See (The), Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Martinique, Mayotte, Monaco, Montenegro, Netherlands (The), Portugal, Réunion, Saint Barthélemy, Saint Martin (French Part), Saint Pierre And Miquelon, San Marino, Slovakia, Slovenia, Spain</cntry>
+ </currency>
+ <currency>
+  <cCode>ALL</cCode>
+  <cName>Lek</cName>
+  <cntry>Albania</cntry>
+ </currency>
+ <currency>
+  <cCode>DZD</cCode>
+  <cName>Algerian Dinar</cName>
+  <cntry>Algeria</cntry>
+ </currency>
+ <currency>
+  <cCode>USD</cCode>
+  <cName>US Dollar</cName>
+  <cntry>American Samoa, Bonaire, Sint Eustatius And Saba, British Indian Ocean Territory (The), Ecuador, El Salvador, Guam, Haiti, Marshall Islands (The), Micronesia (Federated States Of), Northern Mariana Islands (The), Palau, Panama, Puerto Rico, Timor-Leste, Turks And Caicos Islands (The), United States Minor Outlying Islands (The), United States Of America (The), Virgin Islands (British), Virgin Islands (U.s.)</cntry>
+ </currency>
+ <currency>
+  <cCode>AOA</cCode>
+  <cName>Kwanza</cName>
+  <cntry>Angola</cntry>
+ </currency>
+ <currency>
+  <cCode>XCD</cCode>
+  <cName>East Caribbean Dollar</cName>
+  <cntry>Anguilla, Antigua And Barbuda, Dominica, Grenada, Montserrat, Saint Kitts And Nevis, Saint Lucia, Saint Vincent And The Grenadines</cntry>
+ </currency>
+ <currency>
+  <cCode>ARS</cCode>
+  <cName>Argentine Peso</cName>
+  <cntry>Argentina</cntry>
+ </currency>
+ <currency>
+  <cCode>AMD</cCode>
+  <cName>Armenian Dram</cName>
+  <cntry>Armenia</cntry>
+ </currency>
+ <currency>
+  <cCode>AWG</cCode>
+  <cName>Aruban Florin</cName>
+  <cntry>Aruba</cntry>
+ </currency>
+ <currency>
+  <cCode>AUD</cCode>
+  <cName>Australian Dollar</cName>
+  <cntry>Australia, Christmas Island, Cocos (Keeling) Islands (The), Heard Island And Mcdonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu</cntry>
+ </currency>
+ <currency>
+  <cCode>AZN</cCode>
+  <cName>Azerbaijan Manat</cName>
+  <cntry>Azerbaijan</cntry>
+ </currency>
+ <currency>
+  <cCode>BSD</cCode>
+  <cName>Bahamian Dollar</cName>
+  <cntry>Bahamas (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>BHD</cCode>
+  <cName>Bahraini Dinar</cName>
+  <cntry>Bahrain</cntry>
+ </currency>
+ <currency>
+  <cCode>BDT</cCode>
+  <cName>Taka</cName>
+  <cntry>Bangladesh</cntry>
+ </currency>
+ <currency>
+  <cCode>BBD</cCode>
+  <cName>Barbados Dollar</cName>
+  <cntry>Barbados</cntry>
+ </currency>
+ <currency>
+  <cCode>BYN</cCode>
+  <cName>Belarusian Ruble</cName>
+  <cntry>Belarus</cntry>
+ </currency>
+ <currency>
+  <cCode>BZD</cCode>
+  <cName>Belize Dollar</cName>
+  <cntry>Belize</cntry>
+ </currency>
+ <currency>
+  <cCode>XOF</cCode>
+  <cName>CFA Franc BCEAO</cName>
+  <cntry>Benin, Burkina Faso, Côte D'ivoire, Guinea-Bissau, Mali, Niger (The), Senegal, Togo</cntry>
+ </currency>
+ <currency>
+  <cCode>BMD</cCode>
+  <cName>Bermudian Dollar</cName>
+  <cntry>Bermuda</cntry>
+ </currency>
+ <currency>
+  <cCode>INR</cCode>
+  <cName>Indian Rupee</cName>
+  <cntry>Bhutan, India</cntry>
+ </currency>
+ <currency>
+  <cCode>BTN</cCode>
+  <cName>Ngultrum</cName>
+  <cntry>Bhutan</cntry>
+ </currency>
+ <currency>
+  <cCode>BOB</cCode>
+  <cName>Boliviano</cName>
+  <cntry>Bolivia (Plurinational State Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>BOV</cCode>
+  <cName>Mvdol</cName>
+  <cntry>Bolivia (Plurinational State Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>BAM</cCode>
+  <cName>Convertible Mark</cName>
+  <cntry>Bosnia And Herzegovina</cntry>
+ </currency>
+ <currency>
+  <cCode>BWP</cCode>
+  <cName>Pula</cName>
+  <cntry>Botswana</cntry>
+ </currency>
+ <currency>
+  <cCode>NOK</cCode>
+  <cName>Norwegian Krone</cName>
+  <cntry>Bouvet Island, Norway, Svalbard And Jan Mayen</cntry>
+ </currency>
+ <currency>
+  <cCode>BRL</cCode>
+  <cName>Brazilian Real</cName>
+  <cntry>Brazil</cntry>
+ </currency>
+ <currency>
+  <cCode>BND</cCode>
+  <cName>Brunei Dollar</cName>
+  <cntry>Brunei Darussalam</cntry>
+ </currency>
+ <currency>
+  <cCode>BGN</cCode>
+  <cName>Bulgarian Lev</cName>
+  <cntry>Bulgaria</cntry>
+ </currency>
+ <currency>
+  <cCode>BIF</cCode>
+  <cName>Burundi Franc</cName>
+  <cntry>Burundi</cntry>
+ </currency>
+ <currency>
+  <cCode>CVE</cCode>
+  <cName>Cabo Verde Escudo</cName>
+  <cntry>Cabo Verde</cntry>
+ </currency>
+ <currency>
+  <cCode>KHR</cCode>
+  <cName>Riel</cName>
+  <cntry>Cambodia</cntry>
+ </currency>
+ <currency>
+  <cCode>XAF</cCode>
+  <cName>CFA Franc BEAC</cName>
+  <cntry>Cameroon, Central African Republic (The), Chad, Congo (The), Equatorial Guinea, Gabon</cntry>
+ </currency>
+ <currency>
+  <cCode>CAD</cCode>
+  <cName>Canadian Dollar</cName>
+  <cntry>Canada</cntry>
+ </currency>
+ <currency>
+  <cCode>KYD</cCode>
+  <cName>Cayman Islands Dollar</cName>
+  <cntry>Cayman Islands (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>CLP</cCode>
+  <cName>Chilean Peso</cName>
+  <cntry>Chile</cntry>
+ </currency>
+ <currency>
+  <cCode>CLF</cCode>
+  <cName>Unidad de Fomento</cName>
+  <cntry>Chile</cntry>
+ </currency>
+ <currency>
+  <cCode>CNY</cCode>
+  <cName>Yuan Renminbi</cName>
+  <cntry>China</cntry>
+ </currency>
+ <currency>
+  <cCode>COP</cCode>
+  <cName>Colombian Peso</cName>
+  <cntry>Colombia</cntry>
+ </currency>
+ <currency>
+  <cCode>COU</cCode>
+  <cName>Unidad de Valor Real</cName>
+  <cntry>Colombia</cntry>
+ </currency>
+ <currency>
+  <cCode>KMF</cCode>
+  <cName>Comorian Franc </cName>
+  <cntry>Comoros (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>CDF</cCode>
+  <cName>Congolese Franc</cName>
+  <cntry>Congo (The Democratic Republic Of The)</cntry>
+ </currency>
+ <currency>
+  <cCode>NZD</cCode>
+  <cName>New Zealand Dollar</cName>
+  <cntry>Cook Islands (The), New Zealand, Niue, Pitcairn, Tokelau</cntry>
+ </currency>
+ <currency>
+  <cCode>CRC</cCode>
+  <cName>Costa Rican Colon</cName>
+  <cntry>Costa Rica</cntry>
+ </currency>
+ <currency>
+  <cCode>HRK</cCode>
+  <cName>Kuna</cName>
+  <cntry>Croatia</cntry>
+ </currency>
+ <currency>
+  <cCode>CUP</cCode>
+  <cName>Cuban Peso</cName>
+  <cntry>Cuba</cntry>
+ </currency>
+ <currency>
+  <cCode>CUC</cCode>
+  <cName>Peso Convertible</cName>
+  <cntry>Cuba</cntry>
+ </currency>
+ <currency>
+  <cCode>ANG</cCode>
+  <cName>Netherlands Antillean Guilder</cName>
+  <cntry>Curaçao, Sint Maarten (Dutch Part)</cntry>
+ </currency>
+ <currency>
+  <cCode>CZK</cCode>
+  <cName>Czech Koruna</cName>
+  <cntry>Czechia</cntry>
+ </currency>
+ <currency>
+  <cCode>DKK</cCode>
+  <cName>Danish Krone</cName>
+  <cntry>Denmark, Faroe Islands (The), Greenland</cntry>
+ </currency>
+ <currency>
+  <cCode>DJF</cCode>
+  <cName>Djibouti Franc</cName>
+  <cntry>Djibouti</cntry>
+ </currency>
+ <currency>
+  <cCode>DOP</cCode>
+  <cName>Dominican Peso</cName>
+  <cntry>Dominican Republic (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>EGP</cCode>
+  <cName>Egyptian Pound</cName>
+  <cntry>Egypt</cntry>
+ </currency>
+ <currency>
+  <cCode>SVC</cCode>
+  <cName>El Salvador Colon</cName>
+  <cntry>El Salvador</cntry>
+ </currency>
+ <currency>
+  <cCode>ERN</cCode>
+  <cName>Nakfa</cName>
+  <cntry>Eritrea</cntry>
+ </currency>
+ <currency>
+  <cCode>ETB</cCode>
+  <cName>Ethiopian Birr</cName>
+  <cntry>Ethiopia</cntry>
+ </currency>
+ <currency>
+  <cCode>FKP</cCode>
+  <cName>Falkland Islands Pound</cName>
+  <cntry>Falkland Islands (The) [Malvinas]</cntry>
+ </currency>
+ <currency>
+  <cCode>FJD</cCode>
+  <cName>Fiji Dollar</cName>
+  <cntry>Fiji</cntry>
+ </currency>
+ <currency>
+  <cCode>XPF</cCode>
+  <cName>CFP Franc</cName>
+  <cntry>French Polynesia, New Caledonia, Wallis And Futuna</cntry>
+ </currency>
+ <currency>
+  <cCode>GMD</cCode>
+  <cName>Dalasi</cName>
+  <cntry>Gambia (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>GEL</cCode>
+  <cName>Lari</cName>
+  <cntry>Georgia</cntry>
+ </currency>
+ <currency>
+  <cCode>GHS</cCode>
+  <cName>Ghana Cedi</cName>
+  <cntry>Ghana</cntry>
+ </currency>
+ <currency>
+  <cCode>GIP</cCode>
+  <cName>Gibraltar Pound</cName>
+  <cntry>Gibraltar</cntry>
+ </currency>
+ <currency>
+  <cCode>GTQ</cCode>
+  <cName>Quetzal</cName>
+  <cntry>Guatemala</cntry>
+ </currency>
+ <currency>
+  <cCode>GBP</cCode>
+  <cName>Pound Sterling</cName>
+  <cntry>Guernsey, Isle Of Man, Jersey, United Kingdom Of Great Britain And Northern Ireland (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>GNF</cCode>
+  <cName>Guinean Franc</cName>
+  <cntry>Guinea</cntry>
+ </currency>
+ <currency>
+  <cCode>GYD</cCode>
+  <cName>Guyana Dollar</cName>
+  <cntry>Guyana</cntry>
+ </currency>
+ <currency>
+  <cCode>HTG</cCode>
+  <cName>Gourde</cName>
+  <cntry>Haiti</cntry>
+ </currency>
+ <currency>
+  <cCode>HNL</cCode>
+  <cName>Lempira</cName>
+  <cntry>Honduras</cntry>
+ </currency>
+ <currency>
+  <cCode>HKD</cCode>
+  <cName>Hong Kong Dollar</cName>
+  <cntry>Hong Kong</cntry>
+ </currency>
+ <currency>
+  <cCode>HUF</cCode>
+  <cName>Forint</cName>
+  <cntry>Hungary</cntry>
+ </currency>
+ <currency>
+  <cCode>ISK</cCode>
+  <cName>Iceland Krona</cName>
+  <cntry>Iceland</cntry>
+ </currency>
+ <currency>
+  <cCode>IDR</cCode>
+  <cName>Rupiah</cName>
+  <cntry>Indonesia</cntry>
+ </currency>
+ <currency>
+  <cCode>XDR</cCode>
+  <cName>SDR (Special Drawing Right)</cName>
+  <cntry>International Monetary Fund (Imf) </cntry>
+ </currency>
+ <currency>
+  <cCode>IRR</cCode>
+  <cName>Iranian Rial</cName>
+  <cntry>Iran (Islamic Republic Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>IQD</cCode>
+  <cName>Iraqi Dinar</cName>
+  <cntry>Iraq</cntry>
+ </currency>
+ <currency>
+  <cCode>ILS</cCode>
+  <cName>New Israeli Sheqel</cName>
+  <cntry>Israel</cntry>
+ </currency>
+ <currency>
+  <cCode>JMD</cCode>
+  <cName>Jamaican Dollar</cName>
+  <cntry>Jamaica</cntry>
+ </currency>
+ <currency>
+  <cCode>JPY</cCode>
+  <cName>Yen</cName>
+  <cntry>Japan</cntry>
+ </currency>
+ <currency>
+  <cCode>JOD</cCode>
+  <cName>Jordanian Dinar</cName>
+  <cntry>Jordan</cntry>
+ </currency>
+ <currency>
+  <cCode>KZT</cCode>
+  <cName>Tenge</cName>
+  <cntry>Kazakhstan</cntry>
+ </currency>
+ <currency>
+  <cCode>KES</cCode>
+  <cName>Kenyan Shilling</cName>
+  <cntry>Kenya</cntry>
+ </currency>
+ <currency>
+  <cCode>KPW</cCode>
+  <cName>North Korean Won</cName>
+  <cntry>Korea (The Democratic People’S Republic Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>KRW</cCode>
+  <cName>Won</cName>
+  <cntry>Korea (The Republic Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>KWD</cCode>
+  <cName>Kuwaiti Dinar</cName>
+  <cntry>Kuwait</cntry>
+ </currency>
+ <currency>
+  <cCode>KGS</cCode>
+  <cName>Som</cName>
+  <cntry>Kyrgyzstan</cntry>
+ </currency>
+ <currency>
+  <cCode>LAK</cCode>
+  <cName>Lao Kip</cName>
+  <cntry>Lao People’S Democratic Republic (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>LBP</cCode>
+  <cName>Lebanese Pound</cName>
+  <cntry>Lebanon</cntry>
+ </currency>
+ <currency>
+  <cCode>LSL</cCode>
+  <cName>Loti</cName>
+  <cntry>Lesotho</cntry>
+ </currency>
+ <currency>
+  <cCode>ZAR</cCode>
+  <cName>Rand</cName>
+  <cntry>Lesotho, Namibia, South Africa</cntry>
+ </currency>
+ <currency>
+  <cCode>LRD</cCode>
+  <cName>Liberian Dollar</cName>
+  <cntry>Liberia</cntry>
+ </currency>
+ <currency>
+  <cCode>LYD</cCode>
+  <cName>Libyan Dinar</cName>
+  <cntry>Libya</cntry>
+ </currency>
+ <currency>
+  <cCode>CHF</cCode>
+  <cName>Swiss Franc</cName>
+  <cntry>Liechtenstein, Switzerland</cntry>
+ </currency>
+ <currency>
+  <cCode>MOP</cCode>
+  <cName>Pataca</cName>
+  <cntry>Macao</cntry>
+ </currency>
+ <currency>
+  <cCode>MKD</cCode>
+  <cName>Denar</cName>
+  <cntry>Macedonia (The Former Yugoslav Republic Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>MGA</cCode>
+  <cName>Malagasy Ariary</cName>
+  <cntry>Madagascar</cntry>
+ </currency>
+ <currency>
+  <cCode>MWK</cCode>
+  <cName>Malawi Kwacha</cName>
+  <cntry>Malawi</cntry>
+ </currency>
+ <currency>
+  <cCode>MYR</cCode>
+  <cName>Malaysian Ringgit</cName>
+  <cntry>Malaysia</cntry>
+ </currency>
+ <currency>
+  <cCode>MVR</cCode>
+  <cName>Rufiyaa</cName>
+  <cntry>Maldives</cntry>
+ </currency>
+ <currency>
+  <cCode>MRU</cCode>
+  <cName>Ouguiya</cName>
+  <cntry>Mauritania</cntry>
+ </currency>
+ <currency>
+  <cCode>MUR</cCode>
+  <cName>Mauritius Rupee</cName>
+  <cntry>Mauritius</cntry>
+ </currency>
+ <currency>
+  <cCode>XUA</cCode>
+  <cName>ADB Unit of Account</cName>
+  <cntry>Member Countries Of The African Development Bank Group</cntry>
+ </currency>
+ <currency>
+  <cCode>MXN</cCode>
+  <cName>Mexican Peso</cName>
+  <cntry>Mexico</cntry>
+ </currency>
+ <currency>
+  <cCode>MXV</cCode>
+  <cName>Mexican Unidad de Inversion (UDI)</cName>
+  <cntry>Mexico</cntry>
+ </currency>
+ <currency>
+  <cCode>MDL</cCode>
+  <cName>Moldovan Leu</cName>
+  <cntry>Moldova (The Republic Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>MNT</cCode>
+  <cName>Tugrik</cName>
+  <cntry>Mongolia</cntry>
+ </currency>
+ <currency>
+  <cCode>MAD</cCode>
+  <cName>Moroccan Dirham</cName>
+  <cntry>Morocco, Western Sahara</cntry>
+ </currency>
+ <currency>
+  <cCode>MZN</cCode>
+  <cName>Mozambique Metical</cName>
+  <cntry>Mozambique</cntry>
+ </currency>
+ <currency>
+  <cCode>MMK</cCode>
+  <cName>Kyat</cName>
+  <cntry>Myanmar</cntry>
+ </currency>
+ <currency>
+  <cCode>NAD</cCode>
+  <cName>Namibia Dollar</cName>
+  <cntry>Namibia</cntry>
+ </currency>
+ <currency>
+  <cCode>NPR</cCode>
+  <cName>Nepalese Rupee</cName>
+  <cntry>Nepal</cntry>
+ </currency>
+ <currency>
+  <cCode>NIO</cCode>
+  <cName>Cordoba Oro</cName>
+  <cntry>Nicaragua</cntry>
+ </currency>
+ <currency>
+  <cCode>NGN</cCode>
+  <cName>Naira</cName>
+  <cntry>Nigeria</cntry>
+ </currency>
+ <currency>
+  <cCode>OMR</cCode>
+  <cName>Rial Omani</cName>
+  <cntry>Oman</cntry>
+ </currency>
+ <currency>
+  <cCode>PKR</cCode>
+  <cName>Pakistan Rupee</cName>
+  <cntry>Pakistan</cntry>
+ </currency>
+ <currency>
+  <cCode>PAB</cCode>
+  <cName>Balboa</cName>
+  <cntry>Panama</cntry>
+ </currency>
+ <currency>
+  <cCode>PGK</cCode>
+  <cName>Kina</cName>
+  <cntry>Papua New Guinea</cntry>
+ </currency>
+ <currency>
+  <cCode>PYG</cCode>
+  <cName>Guarani</cName>
+  <cntry>Paraguay</cntry>
+ </currency>
+ <currency>
+  <cCode>PEN</cCode>
+  <cName>Sol</cName>
+  <cntry>Peru</cntry>
+ </currency>
+ <currency>
+  <cCode>PHP</cCode>
+  <cName>Philippine Peso</cName>
+  <cntry>Philippines (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>PLN</cCode>
+  <cName>Zloty</cName>
+  <cntry>Poland</cntry>
+ </currency>
+ <currency>
+  <cCode>QAR</cCode>
+  <cName>Qatari Rial</cName>
+  <cntry>Qatar</cntry>
+ </currency>
+ <currency>
+  <cCode>RON</cCode>
+  <cName>Romanian Leu</cName>
+  <cntry>Romania</cntry>
+ </currency>
+ <currency>
+  <cCode>RUB</cCode>
+  <cName>Russian Ruble</cName>
+  <cntry>Russian Federation (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>RWF</cCode>
+  <cName>Rwanda Franc</cName>
+  <cntry>Rwanda</cntry>
+ </currency>
+ <currency>
+  <cCode>SHP</cCode>
+  <cName>Saint Helena Pound</cName>
+  <cntry>Saint Helena, Ascension And Tristan Da Cunha</cntry>
+ </currency>
+ <currency>
+  <cCode>WST</cCode>
+  <cName>Tala</cName>
+  <cntry>Samoa</cntry>
+ </currency>
+ <currency>
+  <cCode>STN</cCode>
+  <cName>Dobra</cName>
+  <cntry>Sao Tome And Principe</cntry>
+ </currency>
+ <currency>
+  <cCode>SAR</cCode>
+  <cName>Saudi Riyal</cName>
+  <cntry>Saudi Arabia</cntry>
+ </currency>
+ <currency>
+  <cCode>RSD</cCode>
+  <cName>Serbian Dinar</cName>
+  <cntry>Serbia</cntry>
+ </currency>
+ <currency>
+  <cCode>SCR</cCode>
+  <cName>Seychelles Rupee</cName>
+  <cntry>Seychelles</cntry>
+ </currency>
+ <currency>
+  <cCode>SLL</cCode>
+  <cName>Leone</cName>
+  <cntry>Sierra Leone</cntry>
+ </currency>
+ <currency>
+  <cCode>SGD</cCode>
+  <cName>Singapore Dollar</cName>
+  <cntry>Singapore</cntry>
+ </currency>
+ <currency>
+  <cCode>XSU</cCode>
+  <cName>Sucre</cName>
+  <cntry>Sistema Unitario De Compensacion Regional De Pagos &quot;sucre&quot;</cntry>
+ </currency>
+ <currency>
+  <cCode>SBD</cCode>
+  <cName>Solomon Islands Dollar</cName>
+  <cntry>Solomon Islands</cntry>
+ </currency>
+ <currency>
+  <cCode>SOS</cCode>
+  <cName>Somali Shilling</cName>
+  <cntry>Somalia</cntry>
+ </currency>
+ <currency>
+  <cCode>SSP</cCode>
+  <cName>South Sudanese Pound</cName>
+  <cntry>South Sudan</cntry>
+ </currency>
+ <currency>
+  <cCode>LKR</cCode>
+  <cName>Sri Lanka Rupee</cName>
+  <cntry>Sri Lanka</cntry>
+ </currency>
+ <currency>
+  <cCode>SDG</cCode>
+  <cName>Sudanese Pound</cName>
+  <cntry>Sudan (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>SRD</cCode>
+  <cName>Surinam Dollar</cName>
+  <cntry>Suriname</cntry>
+ </currency>
+ <currency>
+  <cCode>SZL</cCode>
+  <cName>Lilangeni</cName>
+  <cntry>Eswatini</cntry>
+ </currency>
+ <currency>
+  <cCode>SEK</cCode>
+  <cName>Swedish Krona</cName>
+  <cntry>Sweden</cntry>
+ </currency>
+ <currency>
+  <cCode>CHE</cCode>
+  <cName>WIR Euro</cName>
+  <cntry>Switzerland</cntry>
+ </currency>
+ <currency>
+  <cCode>CHW</cCode>
+  <cName>WIR Franc</cName>
+  <cntry>Switzerland</cntry>
+ </currency>
+ <currency>
+  <cCode>SYP</cCode>
+  <cName>Syrian Pound</cName>
+  <cntry>Syrian Arab Republic</cntry>
+ </currency>
+ <currency>
+  <cCode>TWD</cCode>
+  <cName>New Taiwan Dollar</cName>
+  <cntry>Taiwan (Province Of China)</cntry>
+ </currency>
+ <currency>
+  <cCode>TJS</cCode>
+  <cName>Somoni</cName>
+  <cntry>Tajikistan</cntry>
+ </currency>
+ <currency>
+  <cCode>TZS</cCode>
+  <cName>Tanzanian Shilling</cName>
+  <cntry>Tanzania, United Republic Of</cntry>
+ </currency>
+ <currency>
+  <cCode>THB</cCode>
+  <cName>Baht</cName>
+  <cntry>Thailand</cntry>
+ </currency>
+ <currency>
+  <cCode>TOP</cCode>
+  <cName>Pa’anga</cName>
+  <cntry>Tonga</cntry>
+ </currency>
+ <currency>
+  <cCode>TTD</cCode>
+  <cName>Trinidad and Tobago Dollar</cName>
+  <cntry>Trinidad And Tobago</cntry>
+ </currency>
+ <currency>
+  <cCode>TND</cCode>
+  <cName>Tunisian Dinar</cName>
+  <cntry>Tunisia</cntry>
+ </currency>
+ <currency>
+  <cCode>TRY</cCode>
+  <cName>Turkish Lira</cName>
+  <cntry>Turkey</cntry>
+ </currency>
+ <currency>
+  <cCode>TMT</cCode>
+  <cName>Turkmenistan New Manat</cName>
+  <cntry>Turkmenistan</cntry>
+ </currency>
+ <currency>
+  <cCode>UGX</cCode>
+  <cName>Uganda Shilling</cName>
+  <cntry>Uganda</cntry>
+ </currency>
+ <currency>
+  <cCode>UAH</cCode>
+  <cName>Hryvnia</cName>
+  <cntry>Ukraine</cntry>
+ </currency>
+ <currency>
+  <cCode>AED</cCode>
+  <cName>UAE Dirham</cName>
+  <cntry>United Arab Emirates (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>USN</cCode>
+  <cName>US Dollar (Next day)</cName>
+  <cntry>United States Of America (The)</cntry>
+ </currency>
+ <currency>
+  <cCode>UYU</cCode>
+  <cName>Peso Uruguayo</cName>
+  <cntry>Uruguay</cntry>
+ </currency>
+ <currency>
+  <cCode>UYI</cCode>
+  <cName>Uruguay Peso en Unidades Indexadas (UI)</cName>
+  <cntry>Uruguay</cntry>
+ </currency>
+ <currency>
+  <cCode>UYW</cCode>
+  <cName>Unidad Previsional</cName>
+  <cntry>Uruguay</cntry>
+ </currency>
+ <currency>
+  <cCode>UZS</cCode>
+  <cName>Uzbekistan Sum</cName>
+  <cntry>Uzbekistan</cntry>
+ </currency>
+ <currency>
+  <cCode>VUV</cCode>
+  <cName>Vatu</cName>
+  <cntry>Vanuatu</cntry>
+ </currency>
+ <currency>
+  <cCode>VES</cCode>
+  <cName>Bolívar Soberano</cName>
+  <cntry>Venezuela (Bolivarian Republic Of)</cntry>
+ </currency>
+ <currency>
+  <cCode>VND</cCode>
+  <cName>Dong</cName>
+  <cntry>Viet Nam</cntry>
+ </currency>
+ <currency>
+  <cCode>YER</cCode>
+  <cName>Yemeni Rial</cName>
+  <cntry>Yemen</cntry>
+ </currency>
+ <currency>
+  <cCode>ZMW</cCode>
+  <cName>Zambian Kwacha</cName>
+  <cntry>Zambia</cntry>
+ </currency>
+ <currency>
+  <cCode>ZWL</cCode>
+  <cName>Zimbabwe Dollar</cName>
+  <cntry>Zimbabwe</cntry>
+ </currency>
+ <currency>
+  <cCode>XBA</cCode>
+  <cName>Bond Markets Unit European Composite Unit (EURCO)</cName>
+  <cntry>Zz01_Bond Markets Unit European_Eurco</cntry>
+ </currency>
+ <currency>
+  <cCode>XBB</cCode>
+  <cName>Bond Markets Unit European Monetary Unit (E.M.U.-6)</cName>
+  <cntry>Zz02_Bond Markets Unit European_Emu-6</cntry>
+ </currency>
+ <currency>
+  <cCode>XBC</cCode>
+  <cName>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</cName>
+  <cntry>Zz03_Bond Markets Unit European_Eua-9</cntry>
+ </currency>
+ <currency>
+  <cCode>XBD</cCode>
+  <cName>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</cName>
+  <cntry>Zz04_Bond Markets Unit European_Eua-17</cntry>
+ </currency>
+ <currency>
+  <cCode>XTS</cCode>
+  <cName>Codes specifically reserved for testing purposes</cName>
+  <cntry>Zz06_Testing_Code</cntry>
+ </currency>
+ <currency>
+  <cCode>XXX</cCode>
+  <cName>The codes assigned for transactions where no currency is involved</cName>
+  <cntry>Zz07_No_Currency</cntry>
+ </currency>
+ <currency>
+  <cCode>XAU</cCode>
+  <cName>Gold</cName>
+  <cntry>Zz08_Gold</cntry>
+ </currency>
+ <currency>
+  <cCode>XPD</cCode>
+  <cName>Palladium</cName>
+  <cntry>Zz09_Palladium</cntry>
+ </currency>
+ <currency>
+  <cCode>XPT</cCode>
+  <cName>Platinum</cName>
+  <cntry>Zz10_Platinum</cntry>
+ </currency>
+ <currency>
+  <cCode>XAG</cCode>
+  <cName>Silver</cName>
+  <cntry>Zz11_Silver</cntry>
+ </currency>
+</currencies>
